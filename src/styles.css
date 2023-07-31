@@ -1,0 +1,122 @@
+@import "./styles/global.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: var(--background-color);
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+
+button:hover,
+input[type="checkbox"]:hover,
+svg:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.appContainer {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+.head-theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.head-theme button {
+  background-color: transparent;
+  border: 0;
+  color: white;
+}
+.head-theme svg {
+  font-size: 2rem;
+}
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+.add-remove {
+  display: flex;
+  justify-content: space-between;
+  background-color: --var(--btn-color);
+  margin: 1rem 0 0.5rem;
+  border-radius: 5px;
+  
+}
+.add-remove button {
+  padding: 5px 10px;
+  font-size: larger;
+  border-radius: 5px;
+  border: 0;
+  background: var(--btn-bg);
+  color: var(--text-color);
+}
+.todofooter {
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+  background: var(--container-color);
+  padding: 5px 10px;
+  padding-bottom: 0;
+  box-shadow: var(--box-shadow);
+ 
+}
+.todofooter .eachTodo {
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(236, 236, 236, 0.398);
+}
+.todofooter .eachTodo div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+  font-size: smaller;
+  background: var(--container-color);
+  color: var(--text-color);
+  margin-top: 0.5rem;
+  border-radius: 0 0 5px 5px;
+  box-shadow: var(--box-shadow);
+}
+.footer-container .footer-btns {
+  display: flex;
+  gap: 10px;
+}
+.footer-container .footer-btns .active {
+  background: var(--container-color);
+  color: var(--background-color);
+}
+.footer-container button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 0;
+  color: var(--btn-color);
+}
+.nothing {
+  padding: 10px;
+  background: var(--container-color);
+  color: var(--text-color);
+}

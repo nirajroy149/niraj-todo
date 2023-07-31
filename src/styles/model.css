@@ -1,0 +1,73 @@
+@import "./global.css";
+
+.modelSection {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(221, 215, 215, 0.318); /* Black w/ opacity */
+  padding: 1rem;
+}
+.modelContainer {
+  background: var(--container-color);
+  margin: auto;
+  margin-top: 6rem;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.modelContainer h3 {
+  text-align: left;
+  font-size: 1.5rem;
+  /* padding-bottom: 3rem; */
+}
+.modelContainer label {
+  color: var(--text-color);
+}
+.modelContainer input[type="text"] {
+  height: 2rem;
+  width: 100%;
+  padding-left: 5px;
+  margin: 10px 0 20px 0;
+  outline: none;
+  background-color: rgb(224, 217, 217);
+}
+.modelContainer input[type="text"]:focus {
+  background-color: var(--);
+}
+.modelContainer .btn-group {
+  display: flex;
+  gap: 10px;
+}
+.modelContainer .btn-group button {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.addbtn{
+    color: white;
+    background:var(--container-color) ;
+}
+.cancelbtn{
+    background:black ;
+    border: 1px solid white;
+    color: white;
+}
+.title-close{
+    position: relative;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-close svg{
+    position: relative;
+    color: white;
+    font-size: 1.6rem;
+    bottom: 16px;
+    right: -14px;
+}

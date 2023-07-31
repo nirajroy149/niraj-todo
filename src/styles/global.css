@@ -1,0 +1,31 @@
+.light-theme{
+    --background-color:  linear-gradient(to right, #8e9eab, #eef2f3);
+    --container-color: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    --text-color: white;
+    --btn-color: blue;
+    --btn-bg: linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      );
+    --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dark-theme{
+    --background-color: linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      );
+    --container-color: linear-gradient(to right, #093028, #237a57);
+    --text-color: white;
+    --btn-color: black;
+    --btn-bg: linear-gradient(
+        to right,
+        #2c5364,
+        #203a43,
+        #0f2027
+      );
+      --box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
